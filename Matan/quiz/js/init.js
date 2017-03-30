@@ -3,43 +3,73 @@
 var counter = 0,
     score = 0;
 
-// your quiz data should go into this variable in object form -- one object per item. sample format below:
+var content = [{
+  "name": "האם הוריך, או הורי הוריך, החזיקו באזרחות פולנית לאחר 19.01.1951?",
+  "yes": "congrats",
+  "no": "next"
+}, {
+  "name": "האם הוריך, או הורי הוריך, החזיקו אי פעם  באזרחות פולנית?",
+  "yes": "next",
+  "no": "condol"
+}, {
+  "name": "האם בעל האזרחות התגורר בפולין לאחר 20.1.1920?",
+  "yes": "next",
+  "no": "next"
+}, {
+  "name": "האם בעל האזרחות עזב את פולין לפני 19.01.1951?",
+  "yes": "congrats",
+  "no": "next"
+}, {
+  "name": "האם בעל האזרחות שירת בצבא הישראלי, או בכל צבא שאינו פולני, לפני 19.01.1951?",
+  "yes": "next"
+}, {
+  "name": "האם בעל האזרחות עבד בשירות המדינה (כולל תפקידים בעלי משרה ציבורית, כגון דוור)  לפני 19.01.1951?",
+  "yes": "next"
+}, {
+  "name": "במקרה שבעל האזרחות הפולנית קיבל אזרחות ישראלית או אזרחות אחרת שאינה פולנית לפני 19.01.1951, האן היה מעל גיל 50 בזמן קבלת האזרחות האחרת? ",
+  "yes": "next"
+}, {
+  "name": "האם בעלת האזרחות התחתנה עם אזרח שאינו פולני לפני 19.01.1951?",
+  "yes": "next"
+}, {
+  "name": "במקרה שבעלה של בעלת האזרחות היה אזרח פולני, האם איבד את אזרחותו לפני 19.01.1951?",
+  "yes": "congrats"
+}, {
+  "name": "האם בנו או בתו של בעל האזרחות היו מעל גיל 18 בזמן התרחשות המקרים המתוארים לעיל?",
+  "yes": "congrats",
+  "no": "condol"
+}];
 
-/* 
-
-{
-  "name": "Nomad's Dream",
-  "type": "trek"
-}
-
-*/
-
-var content = [{"name":"עצמאות פולנית","answer":"yes"},{"name":"אחד מבני המשפחה הוא יליד פולין אחרי 99","answer":"no"},
-               {"name":"אני חושב שכן","answer":"yes"},{"האם אתה אישה?":"Dangerous Liasion","answer":"no"},{"name":"למהלא?","answer":"yes"}];
-
-// assigning the commonly accessed dom elements to variables
+// Start
 
 var $name = $('.name'),
     $generate = $('.generate'),
     $result = $('.results'),
     $score = $('.score'),
     $thanks = $('.thanks'),
-    $options = $('.options');
+    $home = $('.home'),
+    $options = $('.options'),
+    $congrats = $('.congrats'),
+    $condol = $('.condol'),
+    $nextq = $('.nextq');
 
 var trekApp = {};
 
-// the initial state of the quiz:
-// starts off by showing the "name" value in the first item in the data object
-// hides the 'next' button, results, score and 'thanks for playing' html as a default
+// intializing the trekapp:
 
 trekApp.init = function() {
   var selection = content[counter];
-  type = selection["answer"];
+  yes = selection["yes"];
+  no = selection["no"];
   $name.html(selection["name"]);
   $generate.hide();
   $result.hide();
   $score.hide();
   $thanks.hide();
+  $home.hide();
+  $congrats.hide();
+  $condol.hide();
+  $nextq.hide();
 }
 
 // the function for moving through the quiz
@@ -48,10 +78,11 @@ trekApp.generate = function() {
 
   // if there are still questions remaining, show the next one
   
-  if (counter < content.length) {
+  if (score < 5) {
     var selection = content[counter];
     $name.html(selection["name"]);
-    type = selection["answer"];  
+    yes = selection["yes"]; 
+    no = selection["no"];
 
     $result.hide();
     $score.hide();
@@ -71,27 +102,30 @@ trekApp.generate = function() {
 
 $('.choice').click(function(e) {
   var chosenAnswer = e.target.id;  
+  console.log(chosenAnswer)
   $result.show();
   $score.show();
   $name.hide();
   $options.hide();
-  console.log(chosenAnswer)
 
   // setting up "full sentence" values for each type -- add else if statements if you have more than two possibilities
   
-  if (type == "yes") {
-    fullAnswer = "ברכותיי אתה זכאי";
-  } else {
-    fullAnswer = "בוא נשאל עוד מספר שאלות";
+  if (yes == "congrats") {
+    score += 100;
+    $congrats.show();
+  }
+  else{
+    score += 1;
+    $nextq.show
   }
    
   // tell the user whether they're right or wrong, and add a point to the score if they're right
 
-  if (chosenAnswer == type) {
-    $result.html("<span class='right'>מצויין</span>  " + fullAnswer + ".");
+  if (chosenAnswer == yes) {
+    $result.html("<span class='right'>מצויין</span>  ");
     score++;
   } else {
-    $result.html("<span class='wrong'>לצערי</span> " + fullAnswer + ".");
+    $result.html("<span class='wrong'>לצערי</span> ");
   }
   counter++;
   $score.html("You're " + score + " for " + counter + ".");
