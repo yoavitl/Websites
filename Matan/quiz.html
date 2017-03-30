@@ -1,24 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>בדיקת זכאות</title>
-  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css">
+<html lang="he">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Polish Citizenshp">
+    <meta name="author" content="Yoav Tourgeman Levi">
+
+    <title>דרכו פולו</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/agency.css">
+    <link rel="stylesheet" href="css/qstyle.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-        <div class="container">
+        <div class="container fullscreen">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src='../img/logo/logo.png' width='42%'></a>             </div> 
+                <a class="navbar-brand page-scroll" href="#page-top"><img src='img/logo/logo.png' width='42%'></a>             </div> 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right reverse-items">
@@ -35,28 +50,28 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../index.html#about">מי אנחנו</a>
+                        <a class="page-scroll" href="index.html#about">מי אנחנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../index.html#services">ההתחייבויות שלנו</a>
+                        <a class="page-scroll" href="#services">ההתחייבויות שלנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../index.html#process">על התהליך</a>
+                        <a class="page-scroll" href="index.html#process">על התהליך</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html">בדיקת זכאות</a>
+                        <a class="page-scroll" href="quiz.html">בדיקת זכאות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../price.html">מחירון</a>
+                        <a class="page-scroll" href="price.html">מחירון</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../holocoust.html">ניצולי שואה</a>
+                        <a class="page-scroll" href="holocoust.html">ניצולי שואה</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../FAQ.html">שאלות נפוצות</a>
+                        <a class="page-scroll" href="FAQ.html">שאלות נפוצות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="../index.html#contact">צור קשר</a>
+                        <a class="page-scroll" href="index.html#contact">צור קשר</a>
                     </li>
                 </ul>
             </div>
@@ -64,8 +79,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-   <header>
+<header>
     <h1>בדיקת זכאות</h1>
     <p class="intro"> הרבה מלל על בדיקת זכאות</p>
 
@@ -76,7 +90,7 @@
       <p class="name" ></p>
       <p class="results"></p>
       <p class="score"></p>
-      <div class="congrats">מצויין</div>
+      <div class="congrats">יש, ברכות, עברת לשלב הבא </div>
       <div class="condol">לא נורא</div>
       <div class="nextq">לשאלה הבאה</div>
 
@@ -96,11 +110,6 @@
       <p>מדובר בבדיקה ראשונית בלבד שאינה מהווה מענה סופי או מוחלט. בכל מקרה מומלץ לפנות אלינו גם אם התשובה שלילית לבחינת אפיקים אחרים. כך גם במקרה שאין מסמכים מתאימים. </p>
     </div>
      </footer>
-  <script src="js/smooth-scroll.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/init.js"></script>
-  <script>
-    smoothScroll.init();
-  </script>
+  <script src="js/qinit.js"></script>
 </body>
 </html>

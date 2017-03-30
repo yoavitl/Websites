@@ -92,7 +92,7 @@ trekApp.generate = function() {
   // if there are no more questions, thank the user for playing and give the option to tweet the score
   
   } else {
-    $thanks.show().append("ענית על  " + score + "תשובות שמקנות לך את הזכות לדרכון");
+    $thanks.show().append('<a href="../index.html"> להשארת פרטי קשר </a>');
   }
 
   $generate.hide();
@@ -108,28 +108,28 @@ $('.choice').click(function(e) {
   $name.hide();
   $options.hide();
 
-  // setting up "full sentence" values for each type -- add else if statements if you have more than two possibilities
-  
-  if (yes == "congrats") {
-    score += 100;
-    $congrats.show();
-  }
-  else{
-    score += 1;
-    $nextq.show
-  }
-   
-  // tell the user whether they're right or wrong, and add a point to the score if they're right
-
-  if (chosenAnswer == yes) {
-    $result.html("<span class='right'>מצויין</span>  ");
-    score++;
-  } else {
+  // first of all what to do if yes and if no
+  if (chosenAnswer == 'yes') {
+    if (yes == "congrats") {
+      score += 100;
+      $congrats.show();
+    }
+    else {
+      score += 1;
+      $nextq.show
+      $result.html("<span class='right'>עובים לשלב הבא</span>  ");    
+      $generate.show();
+    }
+  } 
+  else {
+    if (no == "condol") {
+      score += 100;
+      $condol.show();
+    }
     $result.html("<span class='wrong'>לצערי</span> ");
+    $generate.show();
   }
   counter++;
-  $score.html("You're " + score + " for " + counter + ".");
-  $generate.show();
   
 });
 

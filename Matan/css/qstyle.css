@@ -32,10 +32,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
  	header {
  		padding: 10% 15% 5% 15%;
- 		background: url(check.png) 0 0;
+ 		background: url(../img/check.png) 0 0;
  		background-size: cover;
- 		background-attachment: fixed;
- 		background-position: center;
  		width: 100%;
  		color: #f7f7f7;
  		font-weight: 300;
