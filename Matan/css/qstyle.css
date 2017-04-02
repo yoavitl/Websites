@@ -14,7 +14,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
  }
 
  body {
- 	font-family: 'Oswald', sans-serif;
+ 	font-family: 'Alef';
  	text-align: center;
  	background-color: #ecf0f1;
  }
@@ -26,7 +26,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
  	h1, h2, h3, h4, h5, h6 {
  		text-transform: uppercase;
- 		font-family: 'Oswald', sans-serif;
  		margin: 0;
  	}
 
@@ -45,7 +44,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	 	header h1 {
 	 		margin: 0;
 	 		font-size: 48px;
-	 		text-shadow: 4px 4px 0 #111;
+	 		text-shadow: 1px 1px 0 #111;
 	 		margin-bottom: 40px;
 	 		color: #f1c40f;
 	 	}
@@ -95,10 +94,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	 	font-weight: 300;
 	 	font-size: 24px;
 	 	text-align: center;
-	 	font-family: 'Roboto Slab', serif;
+	 	font-family: 'Alef';
 	 	padding: 50px 0;
 	 	min-height: 400px;
 	 }
+
+		.main .nextq {
+		 	color: #fed136;
+		 	text-shadow: 1px 1px #000000;
+		 	font-size: 48px;
+		 	padding: 20px;
+		 	margin: 40px 0;
+		 }
 
 	 	.main a {
 	 		color: #000;
@@ -143,7 +150,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		 }
 
 		 .main .choice {
-			margin: 40px 0;
+			margin: 40px 10px;
 		 }
 
 		 .main .generate {
