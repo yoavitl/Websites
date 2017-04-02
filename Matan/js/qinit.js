@@ -14,26 +14,31 @@ var content = [{
 }, {
   "name": "האם בעל האזרחות התגורר בפולין לאחר 20.1.1920?",
   "yes": "next",
-  "no": "next"
+  "no": "condol"
 }, {
   "name": "האם בעל האזרחות עזב את פולין לפני 19.01.1951?",
-  "yes": "congrats",
-  "no": "next"
+  "yes": "next",
+  "no": "congrats"
 }, {
   "name": "האם בעל האזרחות שירת בצבא הישראלי, או בכל צבא שאינו פולני, לפני 19.01.1951?",
-  "yes": "next"
+  "yes": "last",
+  "no": "next"
 }, {
   "name": "האם בעל האזרחות עבד בשירות המדינה (כולל תפקידים בעלי משרה ציבורית, כגון דוור)  לפני 19.01.1951?",
-  "yes": "next"
+  "yes": "last",
+  "no": "next"
 }, {
   "name": "במקרה שבעל האזרחות הפולנית קיבל אזרחות ישראלית או אזרחות אחרת שאינה פולנית לפני 19.01.1951, האן היה מעל גיל 50 בזמן קבלת האזרחות האחרת? ",
-  "yes": "next"
+  "yes": "last",
+  "no": "next"
 }, {
   "name": "האם בעלת האזרחות התחתנה עם אזרח שאינו פולני לפני 19.01.1951?",
-  "yes": "next"
+  "yes": "last",
+  "no": "next"
 }, {
   "name": "במקרה שבעלה של בעלת האזרחות היה אזרח פולני, האם איבד את אזרחותו לפני 19.01.1951?",
-  "yes": "congrats"
+  "yes": "last",
+  "no": "congrats"
 }, {
   "name": "האם בנו או בתו של בעל האזרחות היו מעל גיל 18 בזמן התרחשות המקרים המתוארים לעיל?",
   "yes": "congrats",
@@ -44,7 +49,6 @@ var content = [{
 
 var $name = $('.name'),
     $generate = $('.generate'),
-    $result = $('.results'),
     $score = $('.score'),
     $thanks = $('.thanks'),
     $home = $('.home'),
@@ -63,7 +67,6 @@ trekApp.init = function() {
   no = selection["no"];
   $name.html(selection["name"]);
   $generate.hide();
-  $result.hide();
   $score.hide();
   $thanks.hide();
   $home.hide();
@@ -84,15 +87,15 @@ trekApp.generate = function() {
     yes = selection["yes"]; 
     no = selection["no"];
 
-    $result.hide();
     $score.hide();
+    $nextq.hide();
     $name.show();
     $options.show();
 
   // if there are no more questions, thank the user for playing and give the option to tweet the score
   
   } else {
-    $thanks.show().append('<a href="../index.html"> להשארת פרטי קשר </a>');
+    $thanks.show().append('<a href="index.html#contact"> להשארת פרטי קשר </a>');
   }
 
   $generate.hide();
@@ -103,7 +106,6 @@ trekApp.generate = function() {
 $('.choice').click(function(e) {
   var chosenAnswer = e.target.id;  
   console.log(chosenAnswer)
-  $result.show();
   $score.show();
   $name.hide();
   $options.hide();
@@ -114,10 +116,15 @@ $('.choice').click(function(e) {
       score += 100;
       $congrats.show();
     }
+    else if (yes == "last") {
+      score += 1;
+      counter = 8; 
+      $nextq.show();
+      $generate.show();
+    }
     else {
       score += 1;
-      $nextq.show
-      $result.html("<span class='right'>עובים לשלב הבא</span>  ");    
+      $nextq.show();
       $generate.show();
     }
   } 
@@ -126,8 +133,14 @@ $('.choice').click(function(e) {
       score += 100;
       $condol.show();
     }
-    $result.html("<span class='wrong'>לצערי</span> ");
+    else if (no == "congrats") {
+      score += 100;
+      $congrats.show();
+    }
+    else {
+    $nextq.show();  
     $generate.show();
+    }
   }
   counter++;
   
