@@ -231,12 +231,14 @@ header {
     color: #fff
 }
 header .intro-text {
-    padding-top: 100px;
     padding-bottom: 50px
 }
+header .intro-text .intro-lead-in .top {
+    font-size: 62px;
+} 
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-weight: 600;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px
@@ -250,16 +252,18 @@ header .intro-text .intro-heading {
     margin-bottom: 25px
 }
 @media (min-width: 768px) {
+
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px
+        padding-bottom: 500px;
     }
     header .intro-text .intro-lead-in {
         font-family: "Alef", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px
+    }
+    header .top {
+        font-size: 62px;
     }
     header .intro-text .intro-heading {
         font-family: "Alef", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
