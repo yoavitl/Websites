@@ -254,7 +254,7 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
 
     header .intro-text {
-        padding-bottom: 500px;
+        padding-bottom: 200px;
     }
     header .intro-text .intro-lead-in {
         font-family: "Alef", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -558,12 +558,16 @@ aside.clients img {
 }
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image2.jpg);
-    background-position: center;
-    background-repeat: no-repeat
+    background-image: url(../img/map-image3.jpg);
+    background-position: right;
+    background-size: cover;
+    color: #a62022;
 }
-section#contact .section-heading {
-    color: #fff
+section#contact .head-part{
+    margin-bottom: -50px;
+}
+section#contact .fa-part{
+    display: flex;
 }
 section#contact .form-group {
     margin-bottom: 25px
@@ -753,6 +757,7 @@ body {
 
 #bs-example-navbar-collapse-1{
 	max-width: 80%;
+    font-size: 1.15em;
 }
 
 .force-col-md-4{
@@ -780,4 +785,7 @@ body {
     max-width: 50px;
     padding: 0px;
     background-color: transparent; 
+}
+#front-page-btn{
+    margin-top:270px;
 }
