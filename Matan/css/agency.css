@@ -789,3 +789,8 @@ body {
 #front-page-btn{
     margin-top:270px;
 }
+
+.fixed-w{
+    width: 360px; 
+    height: 270px;
+}
