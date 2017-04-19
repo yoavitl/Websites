@@ -53,34 +53,34 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right reverse-items">
                     <li class="hidden reverse-item">
-                        <a href="index.html#page-top"></a>
+                        <a href="index#page-top"></a>
                     </li>
                     <li class="reverse-item">
-                      <a class="page-scroll" href="index.html#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
+                      <a class="page-scroll" href="index#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#about">מי אנחנו</a>
+                        <a class="page-scroll" href="index#about">מי אנחנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#services">ההתחייבויות שלנו</a>
+                        <a class="page-scroll" href="index#services">ההתחייבויות שלנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#process">על התהליך</a>
+                        <a class="page-scroll" href="index#process">על התהליך</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="quiz.html">בדיקת זכאות</a>
+                        <a class="page-scroll" href="quiz">בדיקת זכאות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="price.html">מחירון</a>
+                        <a class="page-scroll" href="price">מחירון</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="holocoust.html">ניצולי שואה</a>
+                        <a class="page-scroll" href="holocoust">ניצולי שואה</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="FAQ.html">שאלות נפוצות</a>
+                        <a class="page-scroll" href="FAQ">שאלות נפוצות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#contact">צור קשר</a>
+                        <a class="page-scroll" href="index#contact">צור קשר</a>
                     </li>
                 </ul>
             </div>
@@ -118,9 +118,9 @@
                                         </h4>
                                     </div>
                                     <div id="collapse2" class="panel-collapse collapse">
-                                        <div class="panel-body"><a href="index.html#contact">צור עמנו קשר</a>, באחת מהדרכים המנויות באתר, ואנו נבדוק את זכאותך לקבלת דרכון פולני. שירות זה אינו כרוך בתשלום. <br>
+                                        <div class="panel-body"><a href="index#contact">צור עמנו קשר</a>, באחת מהדרכים המנויות באתר, ואנו נבדוק את זכאותך לקבלת דרכון פולני. שירות זה אינו כרוך בתשלום. <br>
 בנוסף, לבדיקה ראשונית של זכאותך לקבלת דרכון פולני באופן פשוט ועצמאי, באפשרותך
-                                         <a href="quiz.html">ללחוץ כאן. </a> </div>
+                                         <a href="quiz">ללחוץ כאן. </a> </div>
                                     </div>
                                 </div>
 
@@ -132,7 +132,7 @@
                                         </h4>
                                     </div>
                                     <div id="collapse3" class="panel-collapse collapse">
-                                        <div class="panel-body">ממש לא. מחשבון הזכאות המופיע באתר נועד להמחשה ומהווה בדיקה ראשונית בלבד. הוא אינו מקיף את כל האפיקים המשפטיים הקיימים לקבלת אזרחות ודרכון פולני. לשם קבלת תשובה מוסמכת ומקיפה באשר לזכאותך - <a href="index.html#contact">צור עמנו קשר</a>,  ואנו נבדוק את זכאותך ונכווין אותך באשר לאפשרויות העומדות בפניך ללא עלות. <br>
+                                        <div class="panel-body">ממש לא. מחשבון הזכאות המופיע באתר נועד להמחשה ומהווה בדיקה ראשונית בלבד. הוא אינו מקיף את כל האפיקים המשפטיים הקיימים לקבלת אזרחות ודרכון פולני. לשם קבלת תשובה מוסמכת ומקיפה באשר לזכאותך - <a href="index#contact">צור עמנו קשר</a>,  ואנו נבדוק את זכאותך ונכווין אותך באשר לאפשרויות העומדות בפניך ללא עלות. <br>
                                         אנו מתחייבים שלא לטפל ולגבות תשלום מלקוחות אשר בבירור אינם עומדים בקריטריונים לקבלת דרכון פולני. </div>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@
                                         </h4>
                                     </div>
                                     <div id="collapse5" class="panel-collapse collapse">
-                                        <div class="panel-body">אנו בדרכו פולו מתחייבים להציע ללקוחותינו מחירים זולים והוגנים ללא תחרות, ולמערכת תמחור שקופה ופשוטה. לצפייה במחירון השירותים המוצעים על ידינו, <a href='price.html'>לחץ כאן.</a></div>
+                                        <div class="panel-body">אנו בדרכו פולו מתחייבים להציע ללקוחותינו מחירים זולים והוגנים ללא תחרות, ולמערכת תמחור שקופה ופשוטה. לצפייה במחירון השירותים המוצעים על ידינו, <a href='price'>לחץ כאן.</a></div>
                                     </div>
                                 </div>
 

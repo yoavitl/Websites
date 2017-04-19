@@ -50,31 +50,31 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="reverse-item">
-                      <a class="page-scroll" href="index.html#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
+                      <a class="page-scroll" href="index#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#about">מי אנחנו</a>
+                        <a class="page-scroll" href="index#about">מי אנחנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#services">ההתחייבויות שלנו</a>
+                        <a class="page-scroll" href="index#services">ההתחייבויות שלנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#process">על התהליך</a>
+                        <a class="page-scroll" href="index#process">על התהליך</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="quiz.html">בדיקת זכאות</a>
+                        <a class="page-scroll" href="quiz">בדיקת זכאות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="price.html">מחירון</a>
+                        <a class="page-scroll" href="price">מחירון</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="holocoust.html">ניצולי שואה</a>
+                        <a class="page-scroll" href="holocoust">ניצולי שואה</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="FAQ.html">שאלות נפוצות</a>
+                        <a class="page-scroll" href="FAQ">שאלות נפוצות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#contact">צור קשר</a>
+                        <a class="page-scroll" href="index#contact">צור קשר</a>
                     </li>
                 </ul>
             </div>

@@ -95,7 +95,7 @@ trekApp.generate = function() {
   // if there are no more questions, thank the user for playing and give the option to tweet the score
   
   } else {
-    $thanks.show().append('<a href="index.html#contact"> להשארת פרטי קשר </a>');
+    $thanks.show().append('<a href="index#contact"> להשארת פרטי קשר </a>');
   }
 
   $generate.hide();

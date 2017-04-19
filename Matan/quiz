@@ -50,34 +50,34 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right reverse-items">
                     <li class="hidden reverse-item">
-                        <a href="index.html#page-top"></a>
+                        <a href="index#page-top"></a>
                     </li>
                     <li class="reverse-item">
-                      <a class="page-scroll" href="index.html#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
+                      <a class="page-scroll" href="index#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#about">מי אנחנו</a>
+                        <a class="page-scroll" href="index#about">מי אנחנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#services">ההתחייבויות שלנו</a>
+                        <a class="page-scroll" href="index#services">ההתחייבויות שלנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#process">על התהליך</a>
+                        <a class="page-scroll" href="index#process">על התהליך</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="quiz.html">בדיקת זכאות</a>
+                        <a class="page-scroll" href="quiz">בדיקת זכאות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="price.html">מחירון</a>
+                        <a class="page-scroll" href="price">מחירון</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="holocoust.html">ניצולי שואה</a>
+                        <a class="page-scroll" href="holocoust">ניצולי שואה</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="FAQ.html">שאלות נפוצות</a>
+                        <a class="page-scroll" href="FAQ">שאלות נפוצות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="index.html#contact">צור קשר</a>
+                        <a class="page-scroll" href="index#contact">צור קשר</a>
                     </li>
                 </ul>
             </div>
@@ -95,12 +95,12 @@
           <div class="congrats">
             <span class="congrats_head"> מזל טוב! </span><br>
             <span class="congrats_head">את/ה אזרח/ית פולין! </span><br>
-            <span class="congrats_body"> אם ברצונך לקבל דרכון, עבור <a href='index.html#process'> לשלב ב </a></span>
+            <span class="congrats_body"> אם ברצונך לקבל דרכון, עבור <a href='index#process'> לשלב ב </a></span>
           </div>
       <div class="condol">
          <span class="condol_head"> מצטערים. </span><br>
          <span class="condol_head"> לא ניתן לאשר את זכאותך על פי הנתונים הקיימים בלבד</span><br>
-         <span class="condol_body"> מומלץ <a href='index.html#contact'>ליצור עמנו קשר</a> לשם עריכת בירור מקיף יותר לגבי זכאותךת ובדבר האפשרויות האחרות העומדות בפניך  </span><br>
+         <span class="condol_body"> מומלץ <a href='index#contact'>ליצור עמנו קשר</a> לשם עריכת בירור מקיף יותר לגבי זכאותךת ובדבר האפשרויות האחרות העומדות בפניך  </span><br>
          <span class="condol_remind"> -- השירות אינו כרוך בתשלום -- </span>
       </div>
       <div class="nextq">לשאלה הבאה</div>

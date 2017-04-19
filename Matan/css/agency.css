@@ -794,3 +794,17 @@ body {
     width: 360px; 
     height: 270px;
 }
+
+#first_one {
+    display: none;
+}
+@media (max-width: 1200px){
+
+    #second_one{
+        display: none;
+    }
+
+    #first_one {
+    display: block;
+    }
+}
