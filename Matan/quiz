@@ -85,17 +85,22 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-  <header>
-    <h1>בדיקת זכאות</h1>
-  </header>  
-  <div id="main" class="main">
-    <div class="quiz">
+  <div class="portfolio-modal" id="Holocoust">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>בדיקת זכאות</h2>
+                            <img class="img-responsive img-centered" src="img/check.jpg" title=" בדיקת זכאות">
+   
       <p class="name" ></p>
       <p class="score"></p>
           <div class="congrats">
             <span class="congrats_head"> מזל טוב! </span><br>
-            <span class="congrats_head">את/ה אזרח/ית פולין! </span><br>
-            <span class="congrats_body"> אם ברצונך לקבל דרכון, עבור <a href='index#process'> לשלב ב </a></span>
+            <span class="congrats_head">את/ה זכאי/ית לקבל אזרחות פולנית! </span><br>
+            <span class="congrats_body"> עכשיו באפשרותך להמשיך<a href='index#process'> בתהליך לקבלת הדרכון </a></span>
           </div>
       <div class="condol">
          <span class="condol_head"> מצטערים. </span><br>
@@ -114,13 +119,9 @@
       <div class="generate" id="generate">הבא</div>
     </div>
   </div>
-  
-  <footer class="clearfix">
-    <div class="left">
-      <h4>אודוינו</h4>
-      <p>מדובר בבדיקה ראשונית בלבד שאינה מהווה מענה סופי או מוחלט. בכל מקרה מומלץ לפנות אלינו גם אם התשובה שלילית לבחינת אפיקים אחרים. כך גם במקרה שאין מסמכים מתאימים. </p>
-    </div>
-     </footer>
+ 
+ <p><strong><big>*</big></strong><small>יובהר כי המידע המובא להלן אינו כולל פירוט של מגוון הנסיבות במסגרתן קמה, או נשללת, הזכאות לקבלת דרכון פולני. לפיכך,<strong> אין לראות </strong> באמור בו משום סוף פסוק ביחס לזכאותך.</small></p>
+
   <script src="js/qinit.js"></script>
 </body>
 </html>
