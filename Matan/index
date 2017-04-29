@@ -9,18 +9,17 @@
     <meta name="description" content="Polish Citizenshp">
     <meta name="author" content="Yoav Tourgeman Levi">
 
-    <title>דרכו פולו</title>
+    <title>דַּרְכּוֹ פּוֹלוֹ - הדרך הקלה לדרכון הפולני</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css">
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -42,6 +41,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll hidden" href="#page-top"><img src='img/logo/logo.png' style="max-width: 50px;"></a>
+                <p class="phone-mobile">03-681-7594</p>
             </div> 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -87,11 +87,14 @@
     <header>
         <div class="container mainpage">
             <div class="intro-text">
-                <div class="intro-lead-in top">ברוכים הבאים</div><br>
-                <div class="intro-heading"> לדַּרְכּוֹ פּוֹלוֹ</div>
-                <div class="intro-lead-in">הדרך הקלה לדרכון הפולני <br> וכרטיס הכניסה שלך לאיחוד האירופי</div>
-                <a href="#about" class="page-scroll btn btn-xl" id="front-page-btn">ספר לי עוד</a>
+                <div class="intro-lead-in top"></div><br>
+                <div class="intro-heading"></div>
             </div>
+        </div>
+        <div id="front-page-btn">
+            <a href="#about">
+                <button class="page-scroll btn btn-xl"> ספר לי עוד </button>
+            </a>
         </div>
     </header>
 
@@ -105,7 +108,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 just" id="first_one">
+                <div class="col-lg-4 just first_one">
                     <p>
                         <ul>דרכו פולו מציעה את הדרך הקלה והבטוחה ביותר בעבור ישראלים המעוניינים לקבל דרכון פולני ולפתוח לעצמם אפשרויות מגורים, תעסוקה, והשכלה, בפולין ובשאר מדינות האיחוד האירופי. </ul>
                         <ul> השירות הוקם ומנוהל על ידי סתיו אייכנבאום, עולה חדש מפולין המתמחה במשפט המנהלי הפולני ומחזיק בתואר שני במשפטים מאוניברסיטת וורשה. המטרה - לתת מענה לקשיים הכרוכים בקבלת דרכון פולני בישראל, וביניהם העלויות הגבוהות של ההליך, ומקרים רבים בהם חוסר מקצועיות מצד הגורמים המטפלים חיבל בזכויות המבקשים והביא לשלילת זכאותם.</ul>
@@ -114,12 +117,12 @@
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 just">
                     <p>
-                        <ul>אנו מטפלים בתהליך להנפקת דרכון פולני מא' ועד ת'. החל מבירור עצם זכאותו של הלקוח, ועד לזימון תור בשגרירות הפולנית לשם איסוף הדרכון, תוך מעורבות נמוכה ככל האפשר של הלקוח.</ul>
-                        <ul>לדרכו פולו ניסיון רב בטיפול בבקשות לקבלת אזרחות ודרכונים פולניים, ובעבודה מול הרשויות הפולניות. לצורך מתן השירות אנו מעסיקים אנשי קשר בפולין המסייעים בקידום הטיפול בבקשות מול הרשויות המקומיות, ואף נעזרים בשירותיו של עורך דין ישראלי במקרים המצדיקים זאת.</ul>
+                        <ul>בנוסף, בהתאם לצורך אנו מסייעים בתהליך להנפקת הדרכון מא' ועד ת'. החל מבירור עצם הזכאות לקבלת אזרחות פולנית, ועד לזימון תור בשגרירות לשם איסוף הדרכון, תוך מעורבות נמוכה ככל האפשר של הלקוח.</ul>
+                        <ul>יש לנו ניסיון רב בטיפול בבקשות לקבלת אזרחות ודרכונים פולניים, ובעבודה מול הרשויות הפולניות. כמו כן, לצורך מתן השירות אנו מעסיקים אנשי קשר בפולין המסייעים בקידום הטיפול בבקשות מול הרשויות המקומיות, ואף נעזרים בשירותיו של עורך דין ישראלי במקרים המצדיקים זאת.</ul>
                         <ul>בנוסף, דרכו פולו דוגלת בעזרה לזולת, ומסייעת בהתנדבות לניצולי שואה במיצוי זכויותיהם אל מול הרשויות בפולין, ובתרגום תעודות ומסמכים רלוונטיים הדרושים לשם כך.</ul>
                     </p>
                 </div>
-                <div class="col-lg-4 just" id="second_one">
+                <div class="col-lg-4 just second_one">
                     <p>
                         <ul>דרכו פולו מציעה את הדרך הקלה והבטוחה ביותר בעבור ישראלים המעוניינים לקבל דרכון פולני ולפתוח לעצמם אפשרויות מגורים, תעסוקה, והשכלה, בפולין ובשאר מדינות האיחוד האירופי. </ul>
                         <ul> השירות הוקם ומנוהל על ידי סתיו אייכנבאום, עולה חדש מפולין המתמחה במשפט המנהלי הפולני ומחזיק בתואר שני במשפטים מאוניברסיטת וורשה. המטרה - לתת מענה לקשיים הכרוכים בקבלת דרכון פולני בישראל, וביניהם העלויות הגבוהות של ההליך, ומקרים רבים בהם חוסר מקצועיות מצד הגורמים המטפלים חיבל בזכויות המבקשים והביא לשלילת זכאותם.</ul>
@@ -185,7 +188,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">על התהליך</h2>
+                    <h2 class="section-heading">על התהליך</h2><br>
                 </div>
             </div>
             <div class="row">
@@ -201,7 +204,7 @@
                                     <h4 class="subheading">בדיקת זכאות</h4>
                                 </div>
                                 <div class="timeline-body just">
-                                    <p class="text-muted">בשלב הראשון, עוד בטרם נקיטת הליכים כלשהם מול הרשויות, עלינו לעמוד על זיקתו של הלקוח לפולין, ולבחון את זכאותו לקבלת אזרחות פולנית. לצורך כך ניתן להיעזר בתעודות, טפסים, ומסמכים רלוונטיים. במידה וקיימת זכאות לאזרחות פולנית, ניתן להתחיל בתהליך להכרה באזרחות זו, ולקבלת הדרכון.</p>
+                                    <p class="text-muted">בשלב הראשון, עוד בטרם נקיטת הליכים כלשהם מול הרשויות, עלינו לעמוד על זיקתו של הלקוח לפולין, ולבחון את זכאותו לקבלת אזרחות פולנית. לצורך כך ניתן להיעזר בתעודות, טפסים, ומסמכים רלוונטיים. במידה וקיימת זכאות לאזרחות פולנית, ניתן להתחיל בתהליך להכרה באזרחות זו, ולקבלת הדרכון.</p><br>
                                     <p class='text-muted'>מעוניין/ת לבדוק באופן פשוט ועצמאי האם את/ה זכאי/ת לקבל אזרחות פולנית? <a href='quiz' style="color:#000000;">היכנס למחשבון הזכאות שלנו.</a></p>
                                 </div>
                             </div>
@@ -300,13 +303,18 @@
             <div class="row"> 
                 <div class="col-lg-12 fa-part">
                     <i class="fa fa-fax" aria-hidden="true"></i>
-                    <p style="margin-right: 5px;"> 03-681-7594</p>
+                    <p style="margin-right: 5px;"><a href="tel:036817594" style="color:#9c1d1d;"> 03-681-7594</a></p>
                 </div>
                 <div class="col-lg-12 fa-part">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                    <p style="margin-right: 5px;"> service@darcopolo.co.il</p>
+                    <p style="margin-right: 5px;"> office@darcopolo.co.il</p>
                 </div>
+
                 <div class="col-lg-12 fa-part">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <p style="margin-right: 5px;"><a href="https://facebook.com/darcopol" target="_blank" style="color:#9c1d1d;"> facebook.com/darcopol</a></p>
+                </div>
+<div class="col-lg-12 fa-part">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <p style="margin-right: 5px;"> הרב גרינברג ברוך 9, ראשון לציון</p>
                 </div>
@@ -317,7 +325,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="תוכן ההודעה" id="message" required data-validation-required-message="מה ההודעה"></textarea>
+                                    <textarea class="form-control" placeholder="תוכן ההודעה" id="message"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -327,7 +335,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="כתובות דואר אלקטרוני" id="email" required data-validation-required-message="כתובות דואר אלקטרוני">
+                                    <input type="email" class="form-control" placeholder="כתובות דואר אלקטרוני" id="email" >
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
@@ -362,7 +370,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <span class="copyright">כל הזכויות שמורות &copy; דרכו פולו 2016</span>
+                    <span class="copyright">כל הזכויות שמורות &copy; דרכו פולו 2016-2017</span>
                 </div>
             </div>
         </div>

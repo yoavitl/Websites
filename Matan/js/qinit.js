@@ -105,8 +105,6 @@ trekApp.generate = function() {
 
 $('.choice').click(function(e) {
   var chosenAnswer = e.target.id;  
-  console.log(chosenAnswer)
-  $score.show();
   $name.hide();
   $options.hide();
 
@@ -137,13 +135,9 @@ $('.choice').click(function(e) {
       score += 100;
       $congrats.show();
     }
-    else {
-    $nextq.show();  
-    $generate.show();
-    }
   }
   counter++;
-  
+  trekApp.generate();
 });
 
 $(document).ready(function() {

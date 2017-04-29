@@ -194,8 +194,8 @@ font-family: "Alef", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 768px) {
     .navbar-default {
-        background-color: transparent;
-        padding: 25px 0;
+        background-color: #272727;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -800,25 +800,55 @@ body {
     padding: 0px;
     background-color: transparent; 
 }
+
 #front-page-btn{
-    margin-top:270px;
+    margin: auto;
+    margin-top: 200px;
+    padding-bottom: 200px;
 }
+
+@media (max-width: 768px) and (orientation : portrait) {
+#front-page-btn{
+        margin-top: 300px;
+        padding-bottom: 50px;
+    }
+} 
+
+@media (max-width: 768px) and (orientation : landscape) {
+#front-page-btn{
+        margin-top: 220px;
+        padding-bottom: 50px;
+    }
+} 
 
 .fixed-w{
     width: 360px; 
     height: 270px;
 }
 
-#first_one {
+.first_one {
     display: none;
 }
 @media (max-width: 1200px){
 
-    #second_one{
+    .second_one{
         display: none;
     }
 
-    #first_one {
+    .first_one {
     display: block;
+    }
+}
+
+.phone-mobile {
+    color: #fed136;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+@media (min-width: 768px) {
+    .phone-mobile {
+        display: none;
     }
 }
