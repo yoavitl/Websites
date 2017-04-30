@@ -90,7 +90,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 	 .main {
 	 	width: 70%;
-	 	margin: 0 auto;
+	 	margin: 40px auto;
 	 	font-weight: 300;
 	 	font-size: 24px;
 	 	text-align: center;
@@ -115,11 +115,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	 	}
 
 		 .main p.name {
-		 	color: #d35400;
-		 	text-shadow: 1px 1px #fff;
-		 	font-size: 48px;
-		 	padding: 20px;
-		 	margin: 40px 0;
+		 	font-size: 1.1em;
 		 }
 
 		 .main p.results {
@@ -140,13 +136,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		 .main .choice, .main .generate {
 		 	display: inline;
 		 	padding: 10px;
-		 	border: 3px solid #f39c12;
-		 	color: #f39c12;
 		 	border-radius: 15px;
-		 	font-size: 20px;
-		 	text-transform: uppercase;
-		 	background: #fff;
 		 	cursor: pointer;
+		    color: #fff;
+		    background-color: #fed136;
+		    border-color: #fed136;
 		 }
 
 		 .main .choice {
@@ -159,6 +153,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 		 .main .results {
 		 	margin-bottom: 40px;
+		 }
+
+		 .condol_remind {
+		 	font-size: 0.6em;
 		 }
 
 	footer {
