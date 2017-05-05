@@ -48,19 +48,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right reverse-items">
                     <li class="hidden reverse-item">
-                        <a href="#page-top"></a>
+                        <a href="./index#page-top"></a>
                     </li>
                     <li class="reverse-item">
-                      <a class="page-scroll" href="#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
+                      <a class="page-scroll" href="./index#page-top" id="brand-logo"><img src='img/logo/logo.png' style="max-width: 50px;"></a>  
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="#about">מי אנחנו</a>
+                        <a class="page-scroll" href="./index#about">מי אנחנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="#services">ההתחייבויות שלנו</a>
+                        <a class="page-scroll" href="./index#services">ההתחייבויות שלנו</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="#process">על התהליך</a>
+                        <a class="page-scroll" href="./index#process">על התהליך</a>
                     </li>
                     <li class="reverse-item">
                         <a class="page-scroll" href="quiz">בדיקת זכאות</a>
@@ -75,7 +75,7 @@
                         <a class="page-scroll" href="FAQ">שאלות נפוצות</a>
                     </li>
                     <li class="reverse-item">
-                        <a class="page-scroll" href="#contact">צור קשר</a>
+                        <a class="page-scroll" href="./index#contact">צור קשר</a>
                     </li>
                 </ul>
             </div>
