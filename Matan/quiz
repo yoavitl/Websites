@@ -95,20 +95,18 @@
     <img class="img-responsive img-centered" src="img/check.jpg" title=" בדיקת זכאות">
     <p class="name" ></p>
     <p class="score"></p>
-    <div class="congrats">
-      <span class="congrats_head"> מזל טוב! </span><br>
-      <span class="congrats_head">את/ה זכאי/ית לקבל אזרחות פולנית! </span><br>
-      <span class="congrats_body"> עכשיו באפשרותך להמשיך<a href='index#process'> בתהליך לקבלת הדרכון </a></span>
+    <div class="congrats"><br>
+      <p><b><font size="4"> מזל טוב! </font></b></p>
+      <p>על פי הנתונים שנמסרו, נראה כי אתם זכאים לקבל דרכון פולני. </p>
+      <p> מעוניינים להתחיל בתהליך?<a href='index#contact'><b><i> צרו עמנו קשר </i></b></a>ואנו נשמח לסייע בתהליך.</p>
     </div>
-    <div class="condol">
-      <span class="condol_head"> מצטערים. </span><br>
-      <span class="condol_head"> לא ניתן לאשר את זכאותך על פי הנתונים הקיימים בלבד</span><br>
-      <span class="condol_body"> מומלץ <a href='index#contact'>ליצור עמנו קשר</a> לשם עריכת בירור מקיף יותר לגבי זכאותךת ובדבר האפשרויות האחרות העומדות בפניך  </span><br>
-      <span class="condol_remind"> -- השירות אינו כרוך בתשלום -- </span>
+    <div class="condol"><br>
+      <p><font size="4"><b> מצטערים, על פי הנתונים הקיימים לא ניתן לאשר את זכאותך לדרכון פולני.</b></font></p>
+      <p> עם זאת, מדובר במבחן כללי בלבד, ואין לראות בכך תשובה סופית.</p>
+      <p> על מנת לבחון את נסיבות המקרה הספציפי ולקבל תשובה מפורטת - אנו ממליצים <a href='index#contact'><b><i>להיוועץ עמנו באופן אישי</i></b></a>.</p>
+      <p><b>השירות אינו כרוך בתשלום.</b></p>
     </div>
     <div class="nextq">לשאלה הבאה</div>
-    <p class="thanks">בהצלחה בהמשך בהתהליך</p>
-    <p class="home"><a href="../"> להשארת פרטי קשר </a></p>
     <div class="options">
       <div class="choice" id="yes">כן </div>
       <div class="choice" id="no">לא</div>

@@ -117,7 +117,7 @@
                         <img src="img/price/familysm.png" class="img-responsive fixed-w" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>הנפקת דרכון לבן משפחה</h4>
+                        <h4>הנפקת דרכון נוסף לבן משפחה</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -158,7 +158,7 @@
                         <img src="img/price/familysm.png" class="img-responsive fixed-w" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>הנפקת דרכון לבן משפחה</h4>
+                        <h4>הנפקת דרכון נוסף לבן משפחה</h4>
                     </div>
                 </div>
                  <div class="col-md-4 col-sm-6 portfolio-item">
@@ -192,7 +192,7 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>הנפקת דרכון</h2>
-                            <p class="item-intro text-muted">כל המחירים הינם סופיים, וכוללים את כל תשלומי האגרות הנדרשים.</p>
+                            <p class="item-intro text-muted">כל המחירים הינם סופיים, וכוללים את כל תשלומי האגרות הנדרשים</p>
                             <img class="img-responsive img-centered fixed-w" src="img/price/issuesm.png" alt="">
                               <div class="table-responsive">
                                 <table class="table" style="font-weight: 600; border: 1px solid black; border-collapse: collapse;">
@@ -203,26 +203,26 @@
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td>שלב א' <br> איסוף נתונים</td>
+                                    <td>שלב מקדמי (לפי הצורך) <br> איסוף נתונים</td>
                                     <td>1800 ₪ - 4200 ₪</td>
                                   </tr>
                                   <tr>
-                                    <td>שלב ב' <br> קבלת אזרחות</td>
-                                    <td>2000 ₪</td>
+                                    <td>שלב א' <br> קבלת אזרחות</td>
+                                    <td>1800 ₪ - 2000 ₪</td>
                                   </tr>
                                   <tr>
-                                    <td>שלב ג' <br> קבלת דרכון</td>
-                                    <td>1400 ₪</td>
+                                    <td>שלב ב' <br> קבלת דרכון</td>
+                                    <td>1200 ₪ - 1550 ₪</td>
                                   </tr>   
                                 </tbody>
                               </table>
                               </div>
                               <br>
                               <h4> מחירון מפורט</h4>
-                                <span style="font-weight: 600; float: right; text-align: right;">שלב א'<br> 
+                                <span style="font-weight: 600; float: right; text-align: right;">שלב  מקדמי (לפי הצורך)<br> 
                                     איסוף נתונים
                                 </span><br><br>
-                                <p style="float: right;">השלב ההתחלתי ללקוחות שהם ממוצא פולני, אך אין להם מסמכים מתאימים </p>
+                                <p style="float: right;">השלב ההתחלתי - מיועד ללקוחות שהם ממוצא פולני, אך אין להם מסמכים מתאימים </p>
                                 <br>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
@@ -241,7 +241,7 @@
                                     <div class="col col-sm-6" style="text-align: right;">4. שחזור של תעודת לידה:</div>
                                 </div>
                                                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">1200 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: left;">1000 ש"ח</div>
                                     <div class="col col-sm-6" style="text-align: right;">5. העמלה שלנו: </div>
                                 </div>
                                                                 <div class="row">
@@ -249,10 +249,10 @@
                                     <div class="col col-sm-6" style="text-align: right;">6. עלויות נוספות (אוקראינה, דרום אמריקה, וכו'): </div>
                                 </div>
                                 <br>    
-                                <span style="font-weight: 600; float: right; text-align: right;">שלב ב'<br> 
+                                <span style="font-weight: 600; float: right; text-align: right;">שלב א'<br> 
                                     קבלת האזרחות
                                 </span><br>
-                                <p style="float: right;">השלב הבא, המיועד למי שהשלים את שלב א', וכן למי שיש לו קרובי משפחה מדרגה ראשונה המחזיקים באזרחות פולנית</p>
+                                <p style="float: right;">השלב הבא - מיועד למי שמחזיק בידו מסמכים מספקים אודות מוצאו הפולני, וכן למי שיש לו קרובי משפחה רלוונטיים המחזיקים באזרחות פולנית</p>
                                 <br>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
@@ -260,37 +260,101 @@
                                 </div>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">2. תרגום תעודת נישואין (לפי הצורך):</div>
+                                    <div class="col col-sm-6" style="text-align: right;">2. תרגום תעודת נישואין של ההורים:</div>
                                 </div>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">3. תרגום תעודת נישואין של ההורים (לפי הצורך):</div>
+                                    <div class="col col-sm-6" style="text-align: right;">3. תרגום "תמצית רישום" ממשרד הפנים (פר-עמוד):</div>
                                 </div>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">4. תרגום "תמצית רישום" ממשרד הפנים (פר-עמוד):</div>
+                                    <div class="col col-sm-6" style="text-align: right;">4. תרגום "תעודה המעידה על אזרחות ישראלית":</div>
                                 </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">1200 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">5. העמלה שלנו: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">5. אפוסטילים: </div>
                                 </div>
+                                <div class="row">
+                                     <div class="col col-sm-6" style="text-align: left;">1000 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">6. העמלה שלנו: </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;"></div>
+                                    <div class="col col-sm-6" style="text-align: right;"><u>מסמכים נוספים לפי הצורך:</u></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת נישואין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת גירושין + פסק דין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת שינוי שם: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">50 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;"> אפוסטיל למסמך: </div>
+                                </div>
+                                 <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">לפי ההוצאות</div>
+                                    <div class="col col-sm-6" style="text-align: right;">מסמכים נוספים: </div>
+                                </div><br>
                                 <br>    
-                                <span style="font-weight: 600; float: right; text-align: right;">שלב ג'<br> 
+                                <span style="font-weight: 600; float: right; text-align: right;">שלב ב'<br> 
                                    קבלת הדרכון
-                                </span><br>
-                                <p style="float: right;">השלב הסופי, המיועד לאלו המחזיקים בהחלטה שהם אזרחי פולין, וכן לקטינים שההורים שלהם הם אזרחי פולין</p>
+                                </span><br><br>
+                                <p style="float: right;">השלב הסופי - מיועד לבגירים המחזיקים בהחלטה שהם אזרחי פולין, וכן לקטינים שההורים שלהם הם אזרחי פולין</p>
                                 <br>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">1. רישום תעודת לידה: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">1. תרגום תעודת לידה: </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">2. רישום תעודת נישואין (לפי הצורך):</div>
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">2. רישום תעודת לידה:</div>
                                 </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">1000 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">3. העמלה שלנו: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">50 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">3. אפוסטיל:</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">850 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">4. העמלה שלנו: </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;"></div>
+                                    <div class="col col-sm-6" style="text-align: right;"><u>מסמכים נוספים לפי הצורך:</u></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת נישואין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">רישום תעודת נישואין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת גירושין + פסק דין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">500 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">רישום תעודת גירושין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת שינוי שם: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">שינוי שם בפולין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">50 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;"> אפוסטיל למסמך: </div>
                                 </div>
                             </div>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>חזרה למחירון</button>
@@ -314,7 +378,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>הנפקת דרכון לבן משפחה</h2>
+                            <h2>הנפקת דרכון נוסף לבן משפחה</h2>
                             <img class="img-responsive img-centered fixed-w" src="img/price/familysm.png" alt="">
                             <table class="table" style="font-weight: 600; border: 1px solid black; border-collapse: collapse;">
                                 <thead>
@@ -324,13 +388,13 @@
                                 </thead>
                                 <tbody>
                                   <tr>
-                                    <td>שלב א' (בגירים) <br> קבלת אזרחות</td>
-                                    <td>1800 ₪</td>
+                                    <td>שלב א' (הכרחי רק לבגירים) <br> קבלת אזרחות</td>
+                                    <td>1800 ₪ - 2000 ₪</td>
                                   </tr>
                                   <tr>
-                                    <td>שלב ב' (בגירים וקטינים)<br>קבלת דרכון
+                                    <td> שלב ב' (בגירים וקטינים)<br>קבלת דרכון
                                     </td>
-                                    <td>1400 ₪</td>
+                                    <td>1200 ₪ - 1550 ₪</td>
                                   </tr>   
                                 </tbody>
                               </table>
@@ -340,46 +404,117 @@
                                 <span style="font-weight: 600; float: right; text-align: right;">שלב א'<br> 
                                     קבלת האזרחות
                                 </span><br><br>
-                                <p style="float: right;">השלב ההתחלתי ללקוחות בגירים שיש להם קרובי משפחה מדרגה ראשונה המחזיקים באזרחות פולנית </p>
+                                <p style="float: right;">השלב ההתחלתי - מיועד ללקוחות בגירים שיש להם קרובי משפחה רלוונטיים המחזיקים באזרחות פולנית </p>
+                                <br>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
                                     <div class="col col-sm-6" style="text-align: right;">1. תרגום תעודת לידה: </div>
                                 </div>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">2. תרגום תעודת נישואין (לפי הצורך):</div>
+                                    <div class="col col-sm-6" style="text-align: right;">2. תרגום תעודת נישואין של ההורים:</div>
                                 </div>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">3. תרגום תעודת נישואין של ההורים (לפי הצורך):</div>
+                                    <div class="col col-sm-6" style="text-align: right;">3. תרגום "תמצית רישום" ממשרד הפנים (פר-עמוד):</div>
                                 </div>
                                 <div class="row">
                                     <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">4. תרגום "תמצית רישום" ממשרד הפנים (פר-עמוד):</div>
+                                    <div class="col col-sm-6" style="text-align: right;">4. תרגום "תעודה המעידה על אזרחות ישראלית":</div>
                                 </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">1200 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">5. העמלה שלנו: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">5. אפוסטילים: </div>
                                 </div>
-                                <br>    
+                                <div class="row">
+                                     <div class="col col-sm-6" style="text-align: left;">1000 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">6. העמלה שלנו: </div>
+                                </div><br>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;"></div>
+                                    <div class="col col-sm-6" style="text-align: right;"><u>מסמכים נוספים לפי הצורך:</u></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת נישואין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת גירושין + פסק דין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת שינוי שם: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">50 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;"> אפוסטיל למסמך: </div>
+                                </div><br>
+                                <br>  
                                 <span style="font-weight: 600; float: right; text-align: right;">שלב ב'<br> 
                                    קבלת הדרכון
                                 </span><br><br>
-                                <p style="float: right;">השלב הסופי, המיועד לאלו המחזיקים בהחלטה שהם אזרחי פולין, וכן לקטינים שההורים שלהם הם אזרחי פולין</p>
+                                <p style="float: right;">השלב הסופי - מיועד לבגירים המחזיקים בהחלטה שהם אזרחי פולין, וכן לקטינים שההורים שלהם הם אזרחי פולין</p>
                                 <br>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">1. רישום תעודת לידה: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">1. תרגום תעודת לידה: </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">2. רישום תעודת נישואין (לפי הצורך):</div>
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">2. רישום תעודת לידה:</div>
                                 </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">1000 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">3. העמלה שלנו: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">50 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">3. אפוסטיל:</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">850 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">4. העמלה שלנו: </div>
                                 </div><br>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;"></div>
+                                    <div class="col col-sm-6" style="text-align: right;"><u>מסמכים נוספים לפי הצורך:</u></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת נישואין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">רישום תעודת נישואין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת גירושין + פסק דין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">500 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">רישום תעודת גירושין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">300 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">תרגום תעודת שינוי שם: </div>
+                                </div>
+                                    <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">150 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">שינוי שם בפולין: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">350 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">קבלת תעודת נישואין של ההורים: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">50 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;"> אפוסטיל למסמך: </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">לפי ההוצאות</div>
+                                    <div class="col col-sm-6" style="text-align: right;">מסמכים נוספים: </div>
+                                </div>
+                            <br><br>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>חזרה למחירון</button>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -415,9 +550,13 @@
                                     <div class="col col-sm-6" style="text-align: left;">200 ש"ח</div>
                                     <div class="col col-sm-6" style="text-align: right;">2. רישום תעודת נישואין (לפי הצורך):</div>
                                 </div>
+                               <div class="row">
+                                    <div class="col col-sm-6" style="text-align: left;">בהתאם להוצאות</div>
+                                    <div class="col col-sm-6" style="text-align: right;">3. מסמכים נוספים לפי הצורך: </div>
+                                </div>
                                 <div class="row">
-                                    <div class="col col-sm-6" style="text-align: left;">1000 ש"ח</div>
-                                    <div class="col col-sm-6" style="text-align: right;">3. העמלה שלנו: </div>
+                                    <div class="col col-sm-6" style="text-align: left;">250 ש"ח</div>
+                                    <div class="col col-sm-6" style="text-align: right;">4. העמלה שלנו: </div>
                                 </div><br>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> חזרה למחירון</button>
                         </div>
